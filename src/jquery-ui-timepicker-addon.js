@@ -891,7 +891,7 @@
 				if (this.$timeObj[0].setSelectionRange) {
 					var sPos = this.$timeObj[0].selectionStart;
 					var ePos = this.$timeObj[0].selectionEnd;
-					this.$timeObj[0].setSelectionRange(sPos, ePos);
+					// this.$timeObj[0].setSelectionRange(sPos, ePos);
 				}
 			}
 
